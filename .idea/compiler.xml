@@ -10,7 +10,6 @@
         <module name="mall-mbg" />
         <module name="mall-common" />
         <module name="mall-admin" />
-        <module name="mall-demo" />
         <module name="mall-portal" />
       </profile>
     </annotationProcessing>
@@ -27,9 +26,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mall-admin" options="-parameters" />
-      <module name="mall-common" options="-parameters" />
+      <module name="mall-common" options="" />
       <module name="mall-demo" options="-parameters" />
-      <module name="mall-mbg" options="-parameters" />
+      <module name="mall-mbg" options="" />
       <module name="mall-portal" options="-parameters" />
       <module name="mall-search" options="-parameters" />
     </option>
